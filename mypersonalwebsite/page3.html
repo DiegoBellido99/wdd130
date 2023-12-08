@@ -4,32 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deports</title>
+    <link type="text/css"  rel="stylesheet" href="styles/stylepage3.css">
 </head>
 <body>
+  <div id="product">
     <header>
-        <a id="logo" href="home.html">
-          <img src="images/my-logo.png" alt="">
+        <a id="logo_link" href="home.html">
+          <img class="logo" src="images/my-logo.jpg" alt="logo">
         </a>
         <nav>
           <a href="home.html">Home page </a>
           <a href="page2.html">Touristic destinations</a>
           <a href="page3.html">Deports</a>
         </nav>
-      </header>
-      <div id="intro">
-
-        <div id="portrait">
-          <img src="images/principal-deportes.jpg" alt="Macchu picchu" style="width: 800px; height: 500px;">
+    </header>
+    <div id="hero">
+        <div id="first-part" >
+                <!-- Slideshow container -->
+            <div class="slideshow-container">
+            
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 4</div>
+                  <img src="images/principal-deportes.jpg" alt="Deport palestra" style="width:100%;height:700px;">
+                  <div class="text">Calopay</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 4</div>
+                  <img src="images/vela-deport.jpg" alt="Vela" style="width:100%;height:700px;">
+                  <div class="text">Sailing</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 4</div>
+                  <img src="images/swimming.jpg" alt="Salineras"   style="width:100%;height:700px;">
+                  <div class="text">Swimming</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/snow-ski.jpg" alt="Moche"  style="width:100%;height:700px;">
+                    <div class="text">Ski</div>
+                </div>
+                
+            
+            <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+              <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>          
+            </div>
         </div>
-    
-        <section id="introduccion">
+        <section id="introduction">
     
           <h1 id="tittle">DEPORTS</h1>
     
           <h4 id="phrase">"SPORT DELEGATES TO THE BODY SOME OF THE STRONGEST VIRTUES IN THE SOUL;
              ENERGY, AUDACITY AND PATIENCE"-</h4>
         </section>
-      </div>
+    </div>
       <main >
         <div id="sand-text">
             <h1>Sandboard</h1>
@@ -45,14 +85,14 @@
                  its most attractive features. visited is; Huacachina, five kilometers to the west,
                   also known as the Huacachina Oasis, is a lagoon hidden among the dunes of the desert 
                   surrounded by palm trees.</p>
+            <p>Recommendations:</p>
             <ul>
-                Recommendations:
                 <li>Wear light, comfortable clothing, avoiding cotton clothing</li>
                 <li>Don't forget to apply sunscreen before heading out into the desert.</li>
                 
             </ul>
         </div>
-        <img  class="Sandboard" src="images/sandboard (1).jpg" alt="sanboard" style="width: 500px;height:700px" >
+        <img  class="Sandboard" src="images/sandboard(1).jpg" alt="sanboard" style="width: 500px;height:700px" >
         <div id="surf-text">
             <h1>Surfing</h1>
             <P>Surfing is an adventure sport that involves sliding and making turns on a wave while 
@@ -69,12 +109,12 @@
                   than on other beaches within the 5 kilometers that comprise them. Additionally,
                    if you are a beginner you can find academies and/or classes that are taught
                     around the beach to learn to surf.</p>
+            <p>Recommendations:</p>
             <ul>
-                Recommendations:
                 <li>You must know how to swim.</li>
             </ul>
         </div>
-        <img class="surfing"  src="images/surf (1).jpg" alt="surfing" style="width: 500px; height: 700px;">
+        <img class="surfing"  src="images/surf(1).jpg" alt="surfing" style="width: 500px; height: 700px;">
       </main>
       
       <footer>
@@ -94,6 +134,6 @@
             </div>
     
       </footer>
-    
+      <script src="script/subpage2.js" ></script>  
 </body>
 </html>
